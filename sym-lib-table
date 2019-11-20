@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name EncoderBoard)(type Legacy)(uri ${KIPRJMOD}/EncoderBoard.lib)(options "")(descr ""))
+  (lib (name N51822_QF_VVHP_YYWWLL)(type Legacy)(uri C:/Users/thora/Desktop/LIB_N51822_QF_VVHP_YYWWLL/N51822_QF_VVHP_YYWWLL/KiCad/N51822_QF_VVHP_YYWWLL.lib)(options "")(descr ""))
+)
