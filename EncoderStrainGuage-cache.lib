@@ -1,24 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_R_Small_US
-#
-DEF Device_R_Small_US R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small_US" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
-P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
-X ~ 1 0 100 40 D 50 50 1 1 P
-X ~ 2 0 -100 40 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # EncoderBoard_Encoder
 #
 DEF EncoderBoard_Encoder S 0 40 Y Y 1 F N
@@ -28,10 +10,9 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -150 -100 150 -400 0 1 0 N
-X 1 ~ 150 -400 100 R 50 50 1 1 I
-X 2 ~ 150 -300 100 R 50 50 1 1 I
-X 3 ~ 150 -200 100 R 50 50 1 1 O
-X 4 ~ 150 -100 100 R 50 50 1 1 O
+X 1 ~ 150 -350 100 R 50 50 1 1 I
+X 2 ~ 150 -250 100 R 50 50 1 1 I
+X 3 ~ 150 -150 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -56,11 +37,57 @@ X ~ 2 300 -500 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MCU_Nordic_nRF51x22-QFxx
+# EncoderStrainGuage-rescue_+3.3V-power
 #
-DEF MCU_Nordic_nRF51x22-QFxx U 0 20 Y Y 1 F N
+DEF EncoderStrainGuage-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "EncoderStrainGuage-rescue_+3.3V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# EncoderStrainGuage-rescue_GND-power
+#
+DEF EncoderStrainGuage-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "EncoderStrainGuage-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# EncoderStrainGuage-rescue_R_Small_US-Device
+#
+DEF EncoderStrainGuage-rescue_R_Small_US-Device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "EncoderStrainGuage-rescue_R_Small_US-Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EncoderStrainGuage-rescue_nRF51x22-QFxx-MCU_Nordic
+#
+DEF EncoderStrainGuage-rescue_nRF51x22-QFxx-MCU_Nordic U 0 20 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "MCU_Nordic_nRF51x22-QFxx" 0 -100 50 H V C CNN
+F1 "EncoderStrainGuage-rescue_nRF51x22-QFxx-MCU_Nordic" 0 -100 50 H V C CNN
 F2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm" 0 0 50 H I C CNN
 F3 "" -400 -100 50 H I C CNN
 $FPLIST
@@ -117,35 +144,6 @@ X P0.2 6 900 1300 100 L 50 50 1 1 B
 X P0.3 7 900 1200 100 L 50 50 1 1 B
 X P0.4 8 900 1100 100 L 50 50 1 1 B
 X P0.5 9 900 1000 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
