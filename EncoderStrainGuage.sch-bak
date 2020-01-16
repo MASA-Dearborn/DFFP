@@ -61,8 +61,6 @@ F 3 "" H 5500 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 1900 5500 1750
-Wire Wire Line
-	7500 3100 7750 3100
 $Comp
 L EncoderBoard:Encoder S?
 U 1 1 5DBA1183
@@ -74,10 +72,6 @@ F 3 "" H 8000 3350 50  0001 C CNN
 	1    8000 3350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6400 3000 7750 3000
-Wire Wire Line
-	6400 3200 7750 3200
 Wire Wire Line
 	6400 2150 6400 2200
 Wire Wire Line
@@ -138,4 +132,10 @@ $EndComp
 Connection ~ 7350 2550
 Wire Wire Line
 	7350 2550 7350 2600
+Wire Wire Line
+	7850 3000 6400 3000
+Wire Wire Line
+	6400 3200 7850 3200
+Wire Wire Line
+	7850 3100 7500 3100
 $EndSCHEMATC
