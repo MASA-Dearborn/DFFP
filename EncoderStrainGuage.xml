@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\pr3de\Documents\MASA\DFFP\EncoderStrainGuage.sch</source>
+    <date>1/26/2020 6:14:50 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EncoderStrainGuage.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>9 MOmhs</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAF7EBA</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>1.58 uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="L-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAF94B5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>310 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAFAE9F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OPAMP</value>
+      <footprint>MCP6001T-I_OT:SOT95P270X145-5N</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="EncoderStrainGuage-rescue" part="OPAMP-Simulation_SPICE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB5BB7A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>310 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAFB3BD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10kOhm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAFE62E</tstamp>
+    </comp>
+    <comp ref="FL1">
+      <value>LFB182G45BG2D280</value>
+      <footprint>LFB182G45BG2D280:LFB182G45BG5D920_1</footprint>
+      <datasheet>http://www.murata.com/en-us/api/pdfdownloadapi?cate=luLCBalancedFilter&amp;partno=LFB182G45BG2D280</datasheet>
+      <fields>
+        <field name="Description">Signal Conditioning 2.4GHz Bandpass TI CC253x CC254x</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">LFB182G45BG2D280</field>
+        <field name="Mouser Part Number">81-LFB182G45BG2D280</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=81-LFB182G45BG2D280</field>
+      </fields>
+      <libsource lib="EncoderStrainGuage-rescue" part="LFB182G45BG2D280-LFB182G45BG2D280" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E01FF4A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0C3612</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="Conn_01x05-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0C8629</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0D12C5</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0D7546</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0D7CB6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0EB925</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>3.9 nH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="L-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E201697</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1.5 pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E20169F</tstamp>
+    </comp>
+    <comp ref="NP1">
+      <value>?</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2016B4</tstamp>
+    </comp>
+    <comp ref="NP4">
+      <value>?</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E20A041</tstamp>
+    </comp>
+    <comp ref="NP2">
+      <value>?</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E20A02A</tstamp>
+    </comp>
+    <comp ref="NP3">
+      <value>?</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="L-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E20A020</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MM8130-2600RA2</value>
+      <footprint>MURATA_MM8130-2600RA2</footprint>
+      <datasheet>MURATA</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="MM8130-2600RA2-MM8130-2600RA2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1FF40C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>MM8130-2600RA2</value>
+      <footprint>MURATA_MM8130-2600RA2</footprint>
+      <datasheet>MURATA</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="MM8130-2600RA2-MM8130-2600RA2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E20168B</tstamp>
+    </comp>
+    <comp ref="AE1">
+      <value>Antenna</value>
+      <footprint>MASA_Library:ANTC3216X140N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="Antenna-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1FFB76</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>CC2570RHAT</value>
+      <footprint>QFN40P500X500X90-41N:QFN40P500X500X90-41N</footprint>
+      <libsource lib="EncoderStrainGuage-rescue" part="CC2570RHAT-2020-01-19_20-39-15" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E24F1F1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1m</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E29A8AB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E29E354</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2A9FC0</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2AD064</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2B22ED</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>220pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E355912</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E359B04</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3686CF</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2.4 pf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3692DF</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E37A28D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E39FF7C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3A194C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3A8BE5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3A8BF1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3B1927</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3B1933</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal</value>
+      <footprint>CM7V-T1A_32.768KHZ_12.5PF_20PP:CM7VT1A32768KHZ125PF20PPMTAQC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="Crystal-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CEDAC</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3E5F78</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3E6C96</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND24</value>
+      <footprint>FA-128_32.0000MF20X-K3:FA128</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="Crystal_GND24-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3E8CDC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F0784</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F581B</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LM60CIM3_NOPB</value>
+      <footprint>LM60CIM3_NOPB:SOT95P237X112-3N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm60.pdf</datasheet>
+      <fields>
+        <field name="Description">&amp;plusmn;2&amp;deg;C analog output temperature sensor with 6.25mV /&amp;deg;C gain and TO-92 option</field>
+        <field name="Height">1.12</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM60CIM3/NOPB</field>
+        <field name="Mouser Part Number">926-LM60CIM3/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM60CIM3%2FNOPB</field>
+        <field name="RS Part Number">5359903</field>
+        <field name="RS Price/Stock">https://uk.rs-online.com/web/p/products/5359903</field>
+      </fields>
+      <libsource lib="EncoderStrainGuage-rescue" part="LM60CIM3_NOPB-LM60CIM3_NOPB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E292604</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>StrainGuage</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</footprint>
+      <libsource lib="EncoderStrainGuage-rescue" part="StrainGuage-EncoderBoard" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB7B57A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="EncoderStrainGuage-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB10D81</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PIC16LF88-I_SO</value>
+      <footprint>PIC16LF88-I_SO:SOIC127P1030X265-18N</footprint>
+      <libsource lib="EncoderStrainGuage-rescue" part="PIC16LF88-I_SO-2019-12-16_16-51-55" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF90404</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Rotary Encoder</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2DD770</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>AP3428KTTR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="AP3428KTTR" part="AP3428KTTR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E465482</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>2.2uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4694B5</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E46B3FE</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>450k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E46CE46</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E46DAD4</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E46E6DD</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E48D248</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E551962</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AP3428KTTR" part="AP3428KTTR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP3428KTTR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="En" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="LX" type="input"/>
+        <pin num="4" name="Vin" type="input"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="Antenna-Device">
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="CC2570RHAT-2020-01-19_20-39-15">
+      <footprints>
+        <fp>RHA40_4P5X4P5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC2570RHAT-2020-01-19_20-39-15</field>
+        <field name="Footprint">RHA40_4P5X4P5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="TXD/SOUT" type="output"/>
+        <pin num="6" name="RXD/SIN" type="output"/>
+        <pin num="7" name="BR2/SCLK" type="BiDi"/>
+        <pin num="8" name="BR1/SFLOW" type="input"/>
+        <pin num="9" name="BR3/FASTSPI" type="input"/>
+        <pin num="10" name="DVDD2" type="power_in"/>
+        <pin num="11" name="RTS/SEN" type="output"/>
+        <pin num="12" name="EE_CS" type="output"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="EE_MISO" type="input"/>
+        <pin num="15" name="EE_MOSI" type="output"/>
+        <pin num="16" name="EE_CLK" type="output"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="SLEEP/*MRDY" type="input"/>
+        <pin num="19" name="*SUSPEND/*SRDY" type="input"/>
+        <pin num="20" name="*RESET" type="input"/>
+        <pin num="21" name="AVDD5" type="power_in"/>
+        <pin num="22" name="XOSC_Q1" type="unspc"/>
+        <pin num="23" name="XOSC_Q2" type="unspc"/>
+        <pin num="24" name="AVDD3" type="power_in"/>
+        <pin num="25" name="RF_P" type="unspc"/>
+        <pin num="26" name="RF_N" type="unspc"/>
+        <pin num="27" name="AVDD2" type="power_in"/>
+        <pin num="28" name="AVDD1" type="power_in"/>
+        <pin num="29" name="AVDD4" type="power_in"/>
+        <pin num="30" name="R_BIAS" type="unspc"/>
+        <pin num="31" name="AVDD6" type="power_in"/>
+        <pin num="32" name="XOSC32K_Q1" type="unspc"/>
+        <pin num="33" name="XOSC32K_Q2" type="unspc"/>
+        <pin num="34" name="EE_GND" type="output"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="PORTSEL" type="input"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="DVDD1" type="power_in"/>
+        <pin num="40" name="DCOUPL" type="power_in"/>
+        <pin num="41" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="Conn_01x05-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="Crystal-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="Crystal_GND24-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="L-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="LFB182G45BG2D280-LFB182G45BG2D280">
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">LFB182G45BG2D280-LFB182G45BG2D280</field>
+        <field name="Footprint">LFB182G45BG5D920_1</field>
+        <field name="Datasheet">http://www.murata.com/en-us/api/pdfdownloadapi?cate=luLCBalancedFilter&amp;partno=LFB182G45BG2D280</field>
+        <field name="Description">Signal Conditioning 2.4GHz Bandpass TI CC253x CC254x</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">LFB182G45BG2D280</field>
+        <field name="Mouser Part Number">81-LFB182G45BG2D280</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=81-LFB182G45BG2D280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UNBALANCE_PORT" type="unspc"/>
+        <pin num="2" name="GND_1" type="unspc"/>
+        <pin num="3" name="BALANCE_PORT_1" type="unspc"/>
+        <pin num="4" name="BALANCE_PORT_2" type="unspc"/>
+        <pin num="5" name="GND_2" type="unspc"/>
+        <pin num="6" name="GND_3" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="LM60CIM3_NOPB-LM60CIM3_NOPB">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LM60CIM3_NOPB-LM60CIM3_NOPB</field>
+        <field name="Footprint">SOT95P237X112-3N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm60.pdf</field>
+        <field name="Description">&amp;plusmn;2&amp;deg;C analog output temperature sensor with 6.25mV /&amp;deg;C gain and TO-92 option</field>
+        <field name="Height">1.12</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM60CIM3/NOPB</field>
+        <field name="Mouser Part Number">926-LM60CIM3/NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM60CIM3%2FNOPB</field>
+        <field name="RS Part Number">5359903</field>
+        <field name="RS Price/Stock">https://uk.rs-online.com/web/p/products/5359903</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VS+" type="unspc"/>
+        <pin num="2" name="V0" type="unspc"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="MM8130-2600RA2-MM8130-2600RA2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MM8130-2600RA2-MM8130-2600RA2</field>
+        <field name="Footprint">MURATA_MM8130-2600RA2</field>
+        <field name="Datasheet">MURATA</field>
+      </fields>
+      <pins>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="GND3" name="GND" type="power_in"/>
+        <pin num="GND4" name="GND" type="power_in"/>
+        <pin num="IN" name="IN" type="input"/>
+        <pin num="OUT" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="OPAMP-Simulation_SPICE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPAMP-Simulation_SPICE</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="V-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="PIC16LF88-I_SO-2019-12-16_16-51-55">
+      <footprints>
+        <fp>SOIC18-W_MC</fp>
+        <fp>SOIC18-W_MC-M</fp>
+        <fp>SOIC18-W_MC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC16LF88-I_SO-2019-12-16_16-51-55</field>
+        <field name="Footprint">SOIC18-W_MC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RA2/AN2/CVREF/VREF-" type="BiDi"/>
+        <pin num="2" name="RA3/AN3/VREF+/C1OUT" type="BiDi"/>
+        <pin num="3" name="RA4/AN4/T0CKI/C2OUT" type="BiDi"/>
+        <pin num="4" name="RA5/*MCLR/VPP" type="BiDi"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="RB0/INT/CCP1" type="BiDi"/>
+        <pin num="7" name="RB1/SDI/SDA" type="BiDi"/>
+        <pin num="8" name="RB2/SDO/RX/DT" type="BiDi"/>
+        <pin num="9" name="RB3/PGM/CCP1" type="BiDi"/>
+        <pin num="10" name="RB4/SCK/SCL" type="BiDi"/>
+        <pin num="11" name="RB5/*SS/TX/CK" type="BiDi"/>
+        <pin num="12" name="RB6/AN5/PGC/T1OSO/T1CKI" type="BiDi"/>
+        <pin num="13" name="RB7/AN6/PGD/T1OSI" type="BiDi"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="RA6/OSC2/CLKO" type="BiDi"/>
+        <pin num="16" name="RA7/OSC1/CLKI" type="BiDi"/>
+        <pin num="17" name="RA0/AN0" type="BiDi"/>
+        <pin num="18" name="RA1/AN1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="R_Small_US-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EncoderStrainGuage-rescue" part="StrainGuage-EncoderBoard">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">StrainGuage-EncoderBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AP3428KTTR">
+      <uri>C:\Users\pr3de\Documents\MASA\DFFP/AP3428KTTR.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="EncoderStrainGuage-rescue">
+      <uri>C:\Users\pr3de\Documents\MASA\DFFP/EncoderStrainGuage-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C10" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="VR1" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="GND4"/>
+      <node ref="J2" pin="GND1"/>
+      <node ref="J2" pin="GND2"/>
+      <node ref="J2" pin="GND3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J2" pin="GND4"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J3" pin="GND1"/>
+      <node ref="FL1" pin="6"/>
+      <node ref="FL1" pin="5"/>
+      <node ref="U3" pin="41"/>
+      <node ref="FL1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="35"/>
+      <node ref="U3" pin="37"/>
+      <node ref="U3" pin="38"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J3" pin="GND2"/>
+      <node ref="J3" pin="GND3"/>
+      <node ref="NP1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="NP4" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="NP2" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="13"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U3" pin="29"/>
+      <node ref="U3" pin="31"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="27"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="39"/>
+      <node ref="U3" pin="24"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="3" name="Net-(R7-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="4" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="6" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="40"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="8" name="Net-(L3-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+      <node ref="L3" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="10" name="Vin">
+      <node ref="U4" pin="4"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="12" name="PSout">
+      <node ref="C3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="13" name="TempOut">
+      <node ref="U1" pin="2"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="14" name="Str1">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="VR1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="16" name="PGD">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="17" name="PGC">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="19" name="PotOut">
+      <node ref="U1" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C9-Pad1)">
+      <node ref="J2" pin="IN"/>
+      <node ref="C9" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="23" name="Net-(AE1-Pad1)">
+      <node ref="AE1" pin="1"/>
+      <node ref="NP1" pin="1"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="24" name="MCLR">
+      <node ref="U1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C2-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="26" name="Net-(J6-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="27" name="RFneg">
+      <node ref="U3" pin="26"/>
+      <node ref="FL1" pin="4"/>
+    </net>
+    <net code="28" name="UARTrx">
+      <node ref="U3" pin="6"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="29" name="UARTtx">
+      <node ref="U1" pin="8"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad36)">
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad34)">
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="32" name="XOSC32K2">
+      <node ref="U3" pin="33"/>
+      <node ref="C14" pin="2"/>
+      <node ref="Y2" pin="1"/>
+    </net>
+    <net code="33" name="XOSC32K1">
+      <node ref="Y2" pin="2"/>
+      <node ref="U3" pin="32"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="34" name="Net-(J2-PadOUT)">
+      <node ref="J2" pin="OUT"/>
+      <node ref="J3" pin="OUT"/>
+    </net>
+    <net code="35" name="Net-(J3-PadIN)">
+      <node ref="J3" pin="IN"/>
+      <node ref="NP3" pin="2"/>
+      <node ref="NP2" pin="1"/>
+    </net>
+    <net code="36" name="Net-(FL1-Pad1)">
+      <node ref="NP4" pin="1"/>
+      <node ref="FL1" pin="1"/>
+      <node ref="NP3" pin="1"/>
+    </net>
+    <net code="37" name="Sleep">
+      <node ref="U1" pin="7"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="38" name="RFpos">
+      <node ref="FL1" pin="3"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="39" name="XOSC2">
+      <node ref="Y1" pin="1"/>
+      <node ref="U3" pin="23"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="40" name="XOSC1">
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="41" name="Reset">
+      <node ref="U3" pin="20"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="42" name="Suspend">
+      <node ref="U1" pin="16"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="43" name="Net-(U3-Pad16)">
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="44" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="45" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="47" name="RTS">
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="6"/>
+    </net>
+  </nets>
+</export>
