@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EncoderStrainGuage-cache
 EELAYER 30 0
 EELAYER END
 $Descr A0 46811 33110
@@ -1434,55 +1433,42 @@ Wire Wire Line
 	14850 6700 14850 6850
 Connection ~ 14850 6850
 $Comp
-L EncoderStrainGuage-rescue:GND-power #PWR0105
-U 1 1 5DB86977
-P 9950 1650
-F 0 "#PWR0105" H 9950 1400 50  0001 C CNN
-F 1 "GND" H 9955 1477 50  0000 C CNN
-F 2 "" H 9950 1650 50  0001 C CNN
-F 3 "" H 9950 1650 50  0001 C CNN
-	1    9950 1650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L EncoderStrainGuage-rescue:StrainGuage-EncoderBoard VR1
 U 1 1 5DB7B57A
-P 10250 950
-F 0 "VR1" H 10233 1125 50  0000 C CNN
-F 1 "StrainGuage" H 10233 1034 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 10250 950 50  0001 C CNN
-F 3 "" H 10250 950 50  0001 C CNN
-	1    10250 950 
+P 10550 1100
+F 0 "VR1" H 10533 1275 50  0000 C CNN
+F 1 "StrainGuage" H 10533 1184 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 10550 1100 50  0001 C CNN
+F 3 "" H 10550 1100 50  0001 C CNN
+	1    10550 1100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L EncoderStrainGuage-rescue:+3.3V-power #PWR0104
 U 1 1 5DBA0468
-P 9400 1000
-F 0 "#PWR0104" H 9400 850 50  0001 C CNN
-F 1 "+3.3V" H 9415 1173 50  0000 C CNN
-F 2 "" H 9400 1000 50  0001 C CNN
-F 3 "" H 9400 1000 50  0001 C CNN
-	1    9400 1000
-	-1   0    0    -1  
+P 9500 1300
+F 0 "#PWR0104" H 9500 1150 50  0001 C CNN
+F 1 "+3.3V" H 9515 1473 50  0000 C CNN
+F 2 "" H 9500 1300 50  0001 C CNN
+F 3 "" H 9500 1300 50  0001 C CNN
+	1    9500 1300
+	0    -1   1    0   
 $EndComp
 $Comp
 L EncoderStrainGuage-rescue:R_Small_US-Device R1
 U 1 1 5DB10D81
-P 9600 1000
-F 0 "R1" H 9668 1046 50  0000 L CNN
-F 1 "R" H 9668 955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9600 1000 50  0001 C CNN
-F 3 "~" H 9600 1000 50  0001 C CNN
-	1    9600 1000
+P 9700 1450
+F 0 "R1" H 9768 1496 50  0000 L CNN
+F 1 "R" H 9768 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9700 1450 50  0001 C CNN
+F 3 "~" H 9700 1450 50  0001 C CNN
+	1    9700 1450
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	9950 1650 9950 1450
-Text GLabel 9850 1000 1    50   Input ~ 0
+Text GLabel 9800 1600 3    50   Input ~ 0
 Str1
 Wire Wire Line
-	9400 1000 9500 1000
+	9500 1300 9600 1300
 Text GLabel 8300 1600 2    50   Input ~ 0
 Str1
 $Comp
@@ -1541,8 +1527,6 @@ Text GLabel 9850 3000 0    50   Output ~ 0
 PotOut
 Text GLabel 3900 1600 0    50   Input ~ 0
 PotOut
-Wire Wire Line
-	9700 1000 9950 1000
 $Comp
 L AP3428KTTR:AP3428KTTR U4
 U 1 1 5E465482
@@ -1733,4 +1717,63 @@ F 3 "" H 6500 6250 50  0001 C CNN
 	1    6500 6250
 	1    0    0    -1  
 $EndComp
+$Comp
+L EncoderStrainGuage-rescue:R_Small_US-Device R?
+U 1 1 5E33E6F3
+P 9900 1450
+F 0 "R?" H 9968 1496 50  0000 L CNN
+F 1 "R" H 9968 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 1450 50  0001 C CNN
+F 3 "~" H 9900 1450 50  0001 C CNN
+	1    9900 1450
+	0    -1   1    0   
+$EndComp
+$Comp
+L EncoderStrainGuage-rescue:R_Small_US-Device R?
+U 1 1 5E33F52D
+P 9700 1300
+F 0 "R?" H 9768 1346 50  0000 L CNN
+F 1 "R" H 9768 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9700 1300 50  0001 C CNN
+F 3 "~" H 9700 1300 50  0001 C CNN
+	1    9700 1300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9600 1450 9600 1300
+Connection ~ 9600 1300
+Wire Wire Line
+	9800 1600 9800 1450
+Text GLabel 10000 1050 1    50   Input ~ 0
+Str2
+Connection ~ 9800 1450
+Wire Wire Line
+	10000 1450 10000 1600
+Wire Wire Line
+	10000 1600 10250 1600
+Wire Wire Line
+	9800 1300 10000 1300
+Wire Wire Line
+	10000 1300 10000 1150
+Wire Wire Line
+	10000 1150 10250 1150
+Wire Wire Line
+	10000 1150 10000 1050
+Connection ~ 10000 1150
+Text GLabel 8300 1700 2    50   Input ~ 0
+Str2
+$Comp
+L EncoderStrainGuage-rescue:GND-power #PWR0105
+U 1 1 5DB86977
+P 10250 1700
+F 0 "#PWR0105" H 10250 1450 50  0001 C CNN
+F 1 "GND" H 10255 1527 50  0000 C CNN
+F 2 "" H 10250 1700 50  0001 C CNN
+F 3 "" H 10250 1700 50  0001 C CNN
+	1    10250 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1700 10250 1600
+Connection ~ 10250 1600
 $EndSCHEMATC
