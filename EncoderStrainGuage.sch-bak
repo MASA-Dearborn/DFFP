@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:EncoderStrainGuage-cache
 EELAYER 30 0
 EELAYER END
 $Descr A0 46811 33110
@@ -1718,10 +1719,10 @@ F 3 "" H 6500 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EncoderStrainGuage-rescue:R_Small_US-Device R?
+L EncoderStrainGuage-rescue:R_Small_US-Device R17
 U 1 1 5E33E6F3
 P 9900 1450
-F 0 "R?" H 9968 1496 50  0000 L CNN
+F 0 "R17" H 9968 1496 50  0000 L CNN
 F 1 "R" H 9968 1405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 1450 50  0001 C CNN
 F 3 "~" H 9900 1450 50  0001 C CNN
@@ -1729,10 +1730,10 @@ F 3 "~" H 9900 1450 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L EncoderStrainGuage-rescue:R_Small_US-Device R?
+L EncoderStrainGuage-rescue:R_Small_US-Device R16
 U 1 1 5E33F52D
 P 9700 1300
-F 0 "R?" H 9768 1346 50  0000 L CNN
+F 0 "R16" H 9768 1346 50  0000 L CNN
 F 1 "R" H 9768 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9700 1300 50  0001 C CNN
 F 3 "~" H 9700 1300 50  0001 C CNN
