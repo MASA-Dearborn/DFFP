@@ -3,5 +3,6 @@
   (lib (name N51822_QF_VVHP_YYWWLL)(type Legacy)(uri C:/Users/thora/Desktop/LIB_N51822_QF_VVHP_YYWWLL/N51822_QF_VVHP_YYWWLL/KiCad/N51822_QF_VVHP_YYWWLL.lib)(options "")(descr "")(disabled))
   (lib (name EncoderStrainGuage-rescue)(type Legacy)(uri ${KIPRJMOD}/EncoderStrainGuage-rescue.lib)(options "")(descr ""))
   (lib (name AP3428KTTR)(type Legacy)(uri ${KIPRJMOD}/AP3428KTTR.lib)(options "")(descr ""))
-  (lib (name amplifier_INA333AIDGKR)(type Legacy)(uri C:/Users/Thora/Downloads/INA333AIDGKR/INA333AIDGKR.lib)(options "")(descr ""))
+  (lib (name amplifier_INA333AIDGKR)(type Legacy)(uri C:/Users/Thora/Documents/DFFP/DFFP/INA333AIDGKR.lib)(options "")(descr ""))
+  (lib (name 3314J-501EDKR-N)(type Legacy)(uri C:/Users/Thora/Documents/DFFP/DFFP/2020-02-08_21-17-28.lib)(options "")(descr ""))
 )

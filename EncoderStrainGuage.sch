@@ -1433,17 +1433,6 @@ Wire Wire Line
 	14850 6700 14850 6850
 Connection ~ 14850 6850
 $Comp
-L EncoderStrainGuage-rescue:StrainGuage-EncoderBoard VR1
-U 1 1 5DB7B57A
-P 10550 1100
-F 0 "VR1" H 10533 1275 50  0000 C CNN
-F 1 "StrainGuage" H 10533 1184 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 10550 1100 50  0001 C CNN
-F 3 "" H 10550 1100 50  0001 C CNN
-	1    10550 1100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L EncoderStrainGuage-rescue:+3.3V-power #PWR0104
 U 1 1 5DBA0468
 P 9250 1300
@@ -1452,17 +1441,6 @@ F 1 "+3.3V" H 9265 1473 50  0000 C CNN
 F 2 "" H 9250 1300 50  0001 C CNN
 F 3 "" H 9250 1300 50  0001 C CNN
 	1    9250 1300
-	0    -1   1    0   
-$EndComp
-$Comp
-L EncoderStrainGuage-rescue:R_Small_US-Device R1
-U 1 1 5DB10D81
-P 9450 1600
-F 0 "R1" H 9518 1646 50  0000 L CNN
-F 1 "R" H 9518 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9450 1600 50  0001 C CNN
-F 3 "~" H 9450 1600 50  0001 C CNN
-	1    9450 1600
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -1715,25 +1693,10 @@ F 3 "" H 6500 6250 50  0001 C CNN
 	1    6500 6250
 	1    0    0    -1  
 $EndComp
-$Comp
-L EncoderStrainGuage-rescue:R_Small_US-Device R16
-U 1 1 5E33F52D
-P 9450 1300
-F 0 "R16" H 9518 1346 50  0000 L CNN
-F 1 "R" H 9518 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9450 1300 50  0001 C CNN
-F 3 "~" H 9450 1300 50  0001 C CNN
-	1    9450 1300
-	0    -1   1    0   
-$EndComp
 Text GLabel 10000 1050 1    50   Input ~ 0
 Str+
 Wire Wire Line
-	10000 1600 10250 1600
-Wire Wire Line
 	10000 1300 10000 1150
-Wire Wire Line
-	10000 1150 10250 1150
 Wire Wire Line
 	10000 1150 10000 1050
 Connection ~ 10000 1150
@@ -1750,7 +1713,6 @@ F 3 "" H 10250 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10250 1700 10250 1600
-Connection ~ 10250 1600
 Text GLabel 15250 1200 2    50   Input ~ 0
 Str1
 $Comp
@@ -1758,24 +1720,18 @@ L Device:R_POT_TRIM_US RV1
 U 1 1 5E3FA865
 P 9850 1600
 F 0 "RV1" V 9645 1600 50  0000 C CNN
-F 1 "R_POT_TRIM" V 9736 1600 50  0000 C CNN
+F 1 "500 TRIM" V 9736 1600 50  0000 C CNN
 F 2 "" H 9850 1600 50  0001 C CNN
 F 3 "~" H 9850 1600 50  0001 C CNN
 	1    9850 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9550 1300 10000 1300
-Wire Wire Line
 	9350 1300 9350 1600
-Connection ~ 9350 1300
 Text GLabel 9650 1800 3    50   Input ~ 0
 Str-
 Wire Wire Line
-	9550 1600 9650 1600
-Wire Wire Line
 	9650 1800 9650 1600
-Connection ~ 9650 1600
 Wire Wire Line
 	9650 1600 9700 1600
 Text GLabel 13850 1500 0    50   Input ~ 0
@@ -1951,4 +1907,46 @@ Wire Wire Line
 Connection ~ 12600 3250
 Wire Wire Line
 	12600 3250 12650 3250
+$Comp
+L EncoderStrainGuage-rescue:StrainGuage-EncoderBoard VR2
+U 1 1 5E44C98F
+P 9300 1000
+F 0 "VR2" H 9283 1175 50  0000 C CNN
+F 1 "StrainG 350 ohm" H 9283 1084 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 9300 1000 50  0001 C CNN
+F 3 "" H 9300 1000 50  0001 C CNN
+	1    9300 1000
+	0    -1   1    0   
+$EndComp
+Connection ~ 9350 1300
+Wire Wire Line
+	9800 1300 10000 1300
+$Comp
+L Device:R_POT_TRIM_US RV2
+U 1 1 5E46ABA7
+P 9500 1600
+F 0 "RV2" V 9295 1600 50  0000 C CNN
+F 1 "500 TRIM" V 9386 1600 50  0000 C CNN
+F 2 "" H 9500 1600 50  0001 C CNN
+F 3 "~" H 9500 1600 50  0001 C CNN
+	1    9500 1600
+	0    1    1    0   
+$EndComp
+Connection ~ 9650 1600
+Connection ~ 10250 1600
+Wire Wire Line
+	10000 1600 10250 1600
+Wire Wire Line
+	10000 1150 10250 1150
+$Comp
+L EncoderStrainGuage-rescue:StrainGuage-EncoderBoard VR1
+U 1 1 5DB7B57A
+P 10550 1100
+F 0 "VR1" H 10533 1275 50  0000 C CNN
+F 1 "StrainG 350 ohm" H 10533 1184 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 10550 1100 50  0001 C CNN
+F 3 "" H 10550 1100 50  0001 C CNN
+	1    10550 1100
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
