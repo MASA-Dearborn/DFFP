@@ -1380,7 +1380,7 @@ F 11 "https://uk.rs-online.com/web/p/products/5359903" H 13500 2450 50  0001 L C
 	1    12650 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 12650 3350 0    50   Input ~ 0
+Text GLabel 12550 3350 0    50   Input ~ 0
 TempOut
 Wire Wire Line
 	3200 1900 3900 1900
@@ -1391,12 +1391,12 @@ Wire Wire Line
 $Comp
 L EncoderStrainGuage-rescue:+3.3V-power #PWR0102
 U 1 1 5E2C8163
-P 12650 3250
-F 0 "#PWR0102" H 12650 3100 50  0001 C CNN
-F 1 "+3.3V" H 12665 3423 50  0000 C CNN
-F 2 "" H 12650 3250 50  0001 C CNN
-F 3 "" H 12650 3250 50  0001 C CNN
-	1    12650 3250
+P 12550 3250
+F 0 "#PWR0102" H 12550 3100 50  0001 C CNN
+F 1 "+3.3V" H 12565 3423 50  0000 C CNN
+F 2 "" H 12550 3250 50  0001 C CNN
+F 3 "" H 12550 3250 50  0001 C CNN
+	1    12550 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1737,8 +1737,6 @@ Wire Wire Line
 Wire Wire Line
 	10000 1150 10000 1050
 Connection ~ 10000 1150
-Text GLabel 8300 1700 2    50   Input ~ 0
-Str2
 $Comp
 L EncoderStrainGuage-rescue:GND-power #PWR0105
 U 1 1 5DB86977
@@ -1780,8 +1778,6 @@ Wire Wire Line
 Connection ~ 9650 1600
 Wire Wire Line
 	9650 1600 9700 1600
-Text GLabel 15250 1000 2    50   Input ~ 0
-Str2
 Text GLabel 13850 1500 0    50   Input ~ 0
 Str+
 Text GLabel 13850 1600 0    50   Input ~ 0
@@ -1818,10 +1814,10 @@ Connection ~ 13850 2000
 Wire Wire Line
 	13850 2000 13850 2150
 $Comp
-L EncoderStrainGuage-rescue:GND-power #PWR?
+L EncoderStrainGuage-rescue:GND-power #PWR06
 U 1 1 5E55E711
 P 13550 2000
-F 0 "#PWR?" H 13550 1750 50  0001 C CNN
+F 0 "#PWR06" H 13550 1750 50  0001 C CNN
 F 1 "GND" H 13555 1827 50  0000 C CNN
 F 2 "" H 13550 2000 50  0001 C CNN
 F 3 "" H 13550 2000 50  0001 C CNN
@@ -1844,10 +1840,10 @@ F 7 "Texas Instruments" H 14550 1300 50  0001 L BNN "Field7"
 	1    0    0    -1  
 $EndComp
 $Comp
-L EncoderStrainGuage-rescue:GND-power #PWR?
+L EncoderStrainGuage-rescue:GND-power #PWR05
 U 1 1 5E56DA51
 P 13400 700
-F 0 "#PWR?" H 13400 450 50  0001 C CNN
+F 0 "#PWR05" H 13400 450 50  0001 C CNN
 F 1 "GND" H 13405 527 50  0000 C CNN
 F 2 "" H 13400 700 50  0001 C CNN
 F 3 "" H 13400 700 50  0001 C CNN
@@ -1892,4 +1888,67 @@ F 3 "~" H 13700 1300 50  0001 C CNN
 	1    13700 1300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E3FA48A
+P 15250 1000
+F 0 "#PWR07" H 15250 750 50  0001 C CNN
+F 1 "GND" H 15255 827 50  0000 C CNN
+F 2 "" H 15250 1000 50  0001 C CNN
+F 3 "" H 15250 1000 50  0001 C CNN
+	1    15250 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EncoderStrainGuage-rescue:C-Device C24
+U 1 1 5E412910
+P 12650 3500
+F 0 "C24" H 12765 3546 50  0000 L CNN
+F 1 "1uF" H 12765 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12688 3350 50  0001 C CNN
+F 3 "~" H 12650 3500 50  0001 C CNN
+	1    12650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EncoderStrainGuage-rescue:GND-power #PWR04
+U 1 1 5E412916
+P 12650 3650
+F 0 "#PWR04" H 12650 3400 50  0001 C CNN
+F 1 "GND" H 12655 3477 50  0000 C CNN
+F 2 "" H 12650 3650 50  0001 C CNN
+F 3 "" H 12650 3650 50  0001 C CNN
+	1    12650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 3350 12650 3350
+Connection ~ 12650 3350
+$Comp
+L EncoderStrainGuage-rescue:C-Device C23
+U 1 1 5E42658E
+P 12600 3100
+F 0 "C23" H 12715 3146 50  0000 L CNN
+F 1 ".1uF" H 12715 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12638 2950 50  0001 C CNN
+F 3 "~" H 12600 3100 50  0001 C CNN
+	1    12600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L EncoderStrainGuage-rescue:GND-power #PWR03
+U 1 1 5E426598
+P 12600 2950
+F 0 "#PWR03" H 12600 2700 50  0001 C CNN
+F 1 "GND" H 12605 2777 50  0000 C CNN
+F 2 "" H 12600 2950 50  0001 C CNN
+F 3 "" H 12600 2950 50  0001 C CNN
+	1    12600 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12550 3250 12600 3250
+Connection ~ 12600 3250
+Wire Wire Line
+	12600 3250 12650 3250
 $EndSCHEMATC
