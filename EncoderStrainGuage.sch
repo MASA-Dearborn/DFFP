@@ -1834,17 +1834,6 @@ F 3 "" H 13150 1000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L EncoderStrainGuage-rescue:R_US-Device Rgain1
-U 1 1 5E46DCF9
-P 13700 1300
-F 0 "Rgain1" H 13768 1346 50  0000 L CNN
-F 1 "500" H 13768 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13740 1290 50  0001 C CNN
-F 3 "~" H 13700 1300 50  0001 C CNN
-	1    13700 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR07
 U 1 1 5E3FA48A
 P 15250 1000
@@ -1948,5 +1937,16 @@ F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 10550 1100 50
 F 3 "" H 10550 1100 50  0001 C CNN
 	1    10550 1100
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM_US RV3
+U 1 1 5E487191
+P 13700 1300
+F 0 "RV3" V 13495 1300 50  0000 C CNN
+F 1 "10k TRIM" V 13586 1300 50  0000 C CNN
+F 2 "" H 13700 1300 50  0001 C CNN
+F 3 "~" H 13700 1300 50  0001 C CNN
+	1    13700 1300
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
