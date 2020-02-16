@@ -18,6 +18,45 @@ X FB 5 350 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic_Conn_01x12
+#
+DEF Connector_Generic_Conn_01x12 J 0 40 Y N 1 F N
+F0 "J" 0 600 50 H V C CNN
+F1 "Connector_Generic_Conn_01x12" 0 -700 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 550 50 -650 1 1 10 f
+X Pin_1 1 -200 500 150 R 50 50 1 1 P
+X Pin_10 10 -200 -400 150 R 50 50 1 1 P
+X Pin_11 11 -200 -500 150 R 50 50 1 1 P
+X Pin_12 12 -200 -600 150 R 50 50 1 1 P
+X Pin_2 2 -200 400 150 R 50 50 1 1 P
+X Pin_3 3 -200 300 150 R 50 50 1 1 P
+X Pin_4 4 -200 200 150 R 50 50 1 1 P
+X Pin_5 5 -200 100 150 R 50 50 1 1 P
+X Pin_6 6 -200 0 150 R 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 -200 -200 150 R 50 50 1 1 P
+X Pin_9 9 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # DFFPSymbols_47219-2001
 #
 DEF DFFPSymbols_47219-2001 J 0 30 Y Y 1 F N
@@ -44,6 +83,26 @@ X VSS 6 0 -500 200 R 50 50 0 0 U
 X DAT0 7 1300 0 200 L 50 50 0 0 U
 X DAT1 8 1300 -100 200 L 50 50 0 0 U
 X GND_1 9 1300 -200 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# DFFPSymbols_MCP6N11T
+#
+DEF DFFPSymbols_MCP6N11T U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "DFFPSymbols_MCP6N11T" 0 400 50 H V C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S -250 250 250 -250 0 1 0 N
+X VFG 1 -350 150 100 R 50 50 1 1 I
+X VIM 2 -350 50 100 R 50 50 1 1 I
+X VIP 3 -350 -50 100 R 50 50 1 1 I
+X VSS 4 -350 -150 100 R 50 50 1 1 I
+X Vref 5 350 -150 100 L 50 50 1 1 I
+X Vout 6 350 -50 100 L 50 50 1 1 I
+X VDD 7 350 50 100 L 50 50 1 1 I
+X EN 8 350 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -200,49 +259,6 @@ X BR3/FASTSPI 9 0 -800 300 R 59 59 1 1 I
 ENDDRAW
 ENDDEF
 #
-# EncoderStrainGuage-rescue_Conn_01x02_Male-Connector
-#
-DEF EncoderStrainGuage-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "EncoderStrainGuage-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-X Pin_1 1 200 0 150 L 50 50 1 1 P
-X Pin_2 2 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# EncoderStrainGuage-rescue_Conn_01x03_Male-Connector
-#
-DEF EncoderStrainGuage-rescue_Conn_01x03_Male-Connector J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "EncoderStrainGuage-rescue_Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-S 34 105 0 95 1 1 6 F
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-P 2 1 1 6 50 100 34 100 N
-X Pin_1 1 200 100 150 L 50 50 1 1 P
-X Pin_2 2 200 0 150 L 50 50 1 1 P
-X Pin_3 3 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # EncoderStrainGuage-rescue_Conn_01x05-Connector_Generic
 #
 DEF EncoderStrainGuage-rescue_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
@@ -326,33 +342,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# EncoderStrainGuage-rescue_INA333AIDGKR-amplifier_INA333AIDGKR
-#
-DEF EncoderStrainGuage-rescue_INA333AIDGKR-amplifier_INA333AIDGKR U 0 40 Y Y 1 L N
-F0 "U" -219 591 50 H V L BNN
-F1 "EncoderStrainGuage-rescue_INA333AIDGKR-amplifier_INA333AIDGKR" -240 -807 50 H V L BNN
-F2 "SOP65P490X110-8N" 0 0 50 H I L BNN
-F3 "1631194" 0 0 50 H I L BNN
-F4 "01P0907" 0 0 50 H I L BNN
-F5 "INA333AIDGKR" 0 0 50 H I L BNN
-F6 "MSOP-8" 0 0 50 H I L BNN
-F7 "Texas Instruments" 0 0 50 H I L BNN
-DRAW
-P 2 0 0 16 -500 -700 500 -700 N
-P 2 0 0 16 -500 500 -500 -700 N
-P 2 0 0 16 500 -700 500 500 N
-P 2 0 0 16 500 500 -500 500 N
-X RG 1 -700 0 200 R 40 40 0 0 I
-X VIN- 2 -700 -200 200 R 40 40 0 0 I
-X VIN+ 3 -700 -300 200 R 40 40 0 0 I
-X V- 4 -700 -500 200 R 40 40 0 0 W
-X REF 5 700 300 200 L 40 40 0 0 O
-X VOUT 6 700 100 200 L 40 40 0 0 O
-X V+ 7 -700 300 200 R 40 40 0 0 W
-X RG_2 8 -700 100 200 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
@@ -538,40 +527,6 @@ P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
 P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# EncoderStrainGuage-rescue_StrainGuage-EncoderBoard
-#
-DEF EncoderStrainGuage-rescue_StrainGuage-EncoderBoard VR 0 40 Y Y 1 F N
-F0 "VR" 0 100 50 H V C CNN
-F1 "EncoderStrainGuage-rescue_StrainGuage-EncoderBoard" -150 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -400 -350 -400 -500 0 1 0 N
-S -400 -350 -400 -50 0 1 0 N
-S -50 -500 -400 -500 0 1 0 N
-S -50 -500 250 -500 0 1 0 N
-S -50 -50 -400 -50 0 1 0 N
-S -50 -50 250 -50 0 1 0 N
-S 250 -200 250 -500 0 1 0 N
-S 250 -200 250 -50 0 1 0 N
-X ~ 1 300 -50 100 L 50 50 1 1 I
-X ~ 2 300 -500 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
