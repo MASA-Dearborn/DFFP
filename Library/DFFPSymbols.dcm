@@ -5,4 +5,14 @@ D Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with
 F https://componentsearchengine.com/Datasheets/1/47219-2001.pdf
 $ENDCMP
 #
+$CMP PIC16LF1826-I_SO
+D MCU Low power XLP with 32MHz Osc, 16 I/0
+F https://componentsearchengine.com/Datasheets/1/PIC16LF1826-I_SO.pdf
+$ENDCMP
+#
+$CMP PIC18F24J11-I_ML
+D MCU 16K Flash, Low Power XLP, QFN28
+F https://componentsearchengine.com/Datasheets/1/PIC18F24J11-I_ML.pdf
+$ENDCMP
+#
 #End Doc Library
